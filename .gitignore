@@ -1,0 +1,44 @@
+dependency-reduced-pom.xml
+
+target/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+logs/
+
+*.log
+*.csv
+*.dat
+*.out
+public/upload/*
+
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Ignore Mac OS desktop services store
+.DS_Store
+# Ignore Windows desktop setting file
+desktop.ini
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.vscode/
